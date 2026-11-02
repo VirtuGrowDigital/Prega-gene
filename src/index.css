@@ -1,0 +1,28 @@
+
+@import "tailwindcss";
+
+/* ========================================
+   Pregagene — Global Styles
+======================================== */
+
+
+:root {
+  --pregagene-pink: #d42b85;
+  --pregagene-pink-light: #f8e6f0;
+  --pregagene-blue: #173f7a;
+  --pregagene-text: #282533;
+  --pregagene-muted: #706b78;
+  --pregagene-bg: #ffffff;
+  --pregagene-border: #eee7ed;
+}
+
+body {
+  color: var(--pregagene-text);
+  background: var(--pregagene-bg);
+}
+
+::selection {
+  color: #ffffff;
+  background: var(--pregagene-pink);
+}
+
